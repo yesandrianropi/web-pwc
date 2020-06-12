@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.header { grid-area: header; }
+.menu { grid-area: menu; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+  grid-gap: 5px;
+  background-color: #673ab7;
+  padding: 4px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1px;
+  width: 12%;
+}
+.menu {
+  color: white;
+}
+.main.{
+  color: black;
+}
+.footer{
+  color: black;
+}
+
+</style>
+</head>
+<body>
+
+<div class="grid-container" style="background-color: #e8eaf6 ">
+  <div class="header" style="background-color: #d32f2f">
+    <img src="13.png" style="float: left;">
+    <p style="color: white;">
+      Nim: 155610069<br>
+      Nama: Patrisius Yesandrian Ropi<br>
+      Prodi: Sistem Informasi
+    </p>
+  </div>
+  <div class="menu" style="background-color:#d32f2f">
+<button type="button" onclick="alert('Selamat datang!')">Daftar Pertemuan!</button>
+ 
+ <ul>
+      <li><a href="https://drive.google.com/file/d/13MwZo_f4mR4KesxKr0k8HpdMtVnc6aXE/view?usp=sharing">Pertemuan 1</a></li>
+      <li><a href="">Pertemuan  2</a></li>
+      <li><a href="https://drive.google.com/file/d/1fQh2XO8-Xy2o_xirxUctVFrlehSfF4aH/view?usp=sharing">Pertemuan 3</a></li>
+      <li><a href="https://drive.google.com/file/d/1uo6-6G-Z4p0XwV79aczKtzncmR_CuzU4/view?usp=sharing">Pertemuan 3</a></li>
+      <li><a href="#">Pertemuan 4</a></li>
+      <li><a href="https://drive.google.com/file/d/1rglbWdByFXEaB4rzcUDnXZES1Hoz9W2N/view?usp=sharing">Pertemuan  5</a></li>
+      <li><a href="https://drive.google.com/file/d/1j2DRxLocgUnpNTjMfonIY7wJ8zWHzeQz/view?usp=sharing">Pertemuan 6</a></li>
+      <li><a href="https://drive.google.com/file/d/1rt-gpyMmHVpT1TAClt1HyHROeeazyuhk/view?usp=sharing">Pertemuan 7</a></li>
+      <li><a href="https://drive.google.com/file/d/1n6axO9OBkOMQvHFKQG221Fsva9ZGo_3u/view?usp=sharing">Pertemuan 8</a></li>
+      <li><a href="https://drive.google.com/file/d/1vtqa_qc4mPE8n_SppjRG_9DS1QSmZT3U/view?usp=sharing">Pertemuan 9</a></li>
+       <li><a href="https://drive.google.com/file/d/1eb3V37t_-ebgDiq95XbFhTG8KiJvkUtA/view?usp=sharing">Pertemuan 10</a></li>
+       <li><a href="https://drive.google.com/file/d/1dBpbyLpWRfmQQwygwFkU5ZOFUENV_q4M/view?usp=sharing">Pertemuan 11</a></li>
+       <li><a href="https://drive.google.com/file/d/1xP09rEbxbEok7NHCMh1BIMYpoMhmUUsw/view?usp=sharing">Pertemuan 12</a></li>
+
+    </ul>
+  </div>
+  <div class="main" style="background-image: url('15.jpeg');">
+      <p style="font-size:50px;">
+      <br>Responsi
+      <br>Pemograman
+      <br>Web Client</p>
+  </div>
+  <div class="footer" style="background-image:url('15.jpeg');">
+    <p style="font-size:50px;">
+      <p ><img src="1212.png" style="float:right;"/> <br>Semester Genap 2019/2020
+      <br>STIMIK Akakom</p></p>
+     
+
+</div>
+
+</body>
+</html>
